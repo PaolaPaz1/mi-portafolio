@@ -18,7 +18,7 @@ export const PivotModal = (props) => {
       </div>
       <div className='modalAnchor'>
         {hasPrjt && linkPrjt()}
-        <a href={githubUrl} target='blank'>See GitHub</a>
+        <a href={githubUrl} target='blank'>Ver en GitHub</a>
       </div>
     </section>
   )

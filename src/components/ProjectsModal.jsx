@@ -18,7 +18,7 @@ export default function ProjectsModal () {
 
   return (
     <>
-      <button onClick={openModal} className='main-button'>View Projects</button>
+      <button onClick={openModal} className='main-button'>Ver Proyectos</button>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -29,16 +29,16 @@ export default function ProjectsModal () {
         }}
       >
         <PivotModal
-          title='FullStack Resource Management Solution'
-          body='Discover our Fullstack Resource Management System, powered by Express for the API and MySQL for seamless database connectivity. This project offers an intuitive user interface, built with vanilla JavaScript, ensuring efficient resource allocation, tracking, and reporting. With local storage for user sessions and technologies like Express, Knex, CORS, and MySQL2, it streamlines resource management, enhancing productivity and user experience. Explore the future of resource management today. Made it collaboratively with classmates.'
+          title='Solución de gestión de recursos FullStack'
+          body='Descubra nuestro sistema de gestión de recursos Fullstack, impulsado por Express para API y MySQL para una conectividad perfecta de bases de datos. Este proyecto ofrece una interfaz de usuario intuitiva, construida con JavaScript básico, lo que garantiza una asignación, seguimiento e informes de recursos eficientes. Con almacenamiento local para sesiones de usuario y tecnologías como Express, Knex, CORS y MySQL2, agiliza la gestión de recursos, mejorando la productividad y la experiencia del usuario. Explore hoy el futuro de la gestión de recursos. Proyecto realizado en colaboración con compañeros.'
           hasImgs
           imgs={[FS1, FS2]}
           hasPrjt={false}
           githubUrl='https://github.com/PaolaPaz1/proyecto-final-main'
         />
         <hr />
-        <p className='incoming'>And more incoming ...</p>
-        <button onClick={closeModal}>Close</button>
+        <p className='incoming'>Y más proximamente...</p>
+        <button onClick={closeModal}>Cerrar</button>
       </Modal>
     </>
   )
